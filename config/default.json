@@ -1,0 +1,10 @@
+{
+    "Server": {
+        "port": 5000
+    },
+    "Database": {
+        "MongoDB_Atlas": {
+            "URI": ""
+        }
+    }
+}

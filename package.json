@@ -4,8 +4,16 @@
   "description": "A barebones implementation for development of a nodejs and express framework project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon `${main}`}"
   },
   "author": "toffeomurice@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
